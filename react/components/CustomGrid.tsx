@@ -21,7 +21,7 @@ const CustomGrid = ({ gridType = 1, children }: Props) => {
 
   return (
     <div>
-      <h1 className={styles["custom__grid--title"]}>Diagramation Template</h1>
+      <h1 className={styles["custom__grid--title"]}>Recordemos que necesitamos hacer para solicitar una garantía</h1>
       <div className={styles[gridTypeClass]}>
         <CustomGridItemBig element={children[0]} />
         <CustomGridItemSmall elementOne={children[1]} elementTwo={children[2]} />
